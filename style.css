@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(5, 141, 84);
+    
+    font-family: sans-serif;
+    color: white;
+
+}
+.location,.temperature{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+
+}
+.degree-section h2{
+    font-size: 50px;
+
+}
+.container{
+    width: 100%;
+
+}
+
+
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: block;
+    background-color:rgb(0, 61, 36);
+
+}
+.inner-header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:rgb(0, 61, 36);
+
+}
+.logo-container{
+    height: 100%;
+    float: left;
+    display: table;
+}
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+    padding-right:24px;
+}
+.logo-container h1 span{
+    font-weight: 800;
+
+}
+.navigation{
+    float: right;
+    height: 100%;
+
+}
+.navigation a:last-child{
+    padding-right: 0px;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    
+}
